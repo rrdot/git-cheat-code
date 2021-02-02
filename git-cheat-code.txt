@@ -25,3 +25,18 @@ git config --global user.name "<username>"
 //set email
 git config --global user.name <email>
 
+//create new branch
+git branch <branch-name>
+
+//switch branch
+git checkout <branch-name>
+
+//merge branch to master branch
+git merge <brach-to-merge>
+
+//upload to github
+git remote add origin <github-repo-url>
+git push -u origin main
+
+//clone existing proj
+git clone <github-repo-url>
