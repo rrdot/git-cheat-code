@@ -1,0 +1,27 @@
+//initialize local Git repository
+git init
+
+//add file/s to index
+git add <file>
+
+//check status of working tree
+git status
+
+//commit changes in index
+git commit -m '<comment>'
+
+//push to remote repository
+git push
+
+//pull latest from remote repository
+git pull
+
+//clone repository into a new directory
+git clone
+
+//set username
+git config --global user.name "<username>"
+
+//set email
+git config --global user.name <email>
+
